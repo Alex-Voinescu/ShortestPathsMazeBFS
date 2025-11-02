@@ -71,7 +71,7 @@ void MainWindow::paintEvent(QPaintEvent*)
 
         p.setPen(Qt::white);
         p.drawText(centerX - 80, graphCenterY - radius - 20,
-                   "Graful bazat pe lista de adiacenta");
+                   "Graful asociat");
     }
 
     p.restore();
